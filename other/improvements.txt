@@ -1,0 +1,10 @@
+convert all the 2D arrays that currently store the board contents to simple arrays
+sort out the mess with storing the symbols as -1 and 1, versus O and X
+X make it tell you which board you are playing in
+X teach it that by winning a board it will deny that board to me
+teach it to recognize when a board that it is trying to make a line out of is unwinnable
+add ability to concentrate on a specific line it wants
+X it will block (kindof preventing a win) but this then leads to a win for me
+find a way to better allocate processes
+add timeout functionality
+design a benchmark program
