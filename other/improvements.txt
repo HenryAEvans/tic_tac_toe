@@ -6,5 +6,6 @@ teach it to recognize when a board that it is trying to make a line out of is un
 add ability to concentrate on a specific line it wants
 X it will block (kindof preventing a win) but this then leads to a win for me
 find a way to better allocate processes
-add timeout functionality
+X add timeout functionality
+  note: severely compromises integrity of desTree, since branches should be the same length to have meaningful comparison between them. Not implemented in main project.
 design a benchmark program
