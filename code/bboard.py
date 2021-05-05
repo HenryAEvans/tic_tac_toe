@@ -4,10 +4,11 @@ class BBoard:
         self.array = [[SBoard() for i in range(col)] for j in range(row)]
         self.col = col
         self.row = row
-        #give these better default values later
+        #to do: make it so that you don't have to start in the upper left board everytime
         self.lastx = 0
         self.lasty = 0
         self.array1 = [0]*9
+        #each tuple here represents the id's of the spots you need to win a 3x3 tic-tac-toe board
         self.win_paths = ((0, 1, 2), (3, 4, 5), (6, 7, 8), (0, 3, 6), (1, 4, 7), (2, 5, 8), (0, 4, 8), (2, 4, 6))
         self.last_player = None
     def __repr__(self):

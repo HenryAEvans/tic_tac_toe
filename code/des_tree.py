@@ -2,9 +2,7 @@ from player_ai import *
 from multiprocessing import Pool
 
 WIN_PATHS = (((1, 2), (3, 6), (4, 8)), ((0, 2), (4, 7)), ((0, 1), (4, 6), (5, 8)), ((0, 6), (4, 5)), ((0, 8), (1, 7), (2, 6), (3, 5)), ((2, 8), (3, 4)), ((0, 3), (4, 2), (7, 8)), ((6, 8), (1, 4)), ((6, 7), (0, 4), (2, 5)))
-#note to self: test the crap out of this thing later
 IMPORTANCE_CONST = 0.7
-#note to seflf: tell it what to do if it finds a move that could result in a win
 class Node:
     def __init__(self, num_moves, move, array1, player, b_array):
         self.move = move
