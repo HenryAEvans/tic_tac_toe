@@ -33,4 +33,6 @@ def main():
 if __name__ == "__main__":
     #this is nessecary for pyinstaller to compile the code.
     multiprocessing.freeze_support()
+    print("NOTE: multiprocessing is disabled in this verion.")
+    print("To get the speedup associated with multiprocessing, run the python code found in the main branch of this repository.")
     main()
