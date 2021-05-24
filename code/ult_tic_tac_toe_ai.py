@@ -2,6 +2,7 @@ from bboard import *
 from player import *
 from player_ai import *
 from des_tree import *
+import multiprocessing
 
 def main():
     board = BBoard(3, 3)
@@ -30,4 +31,6 @@ def main():
                 exit()
 
 if __name__ == "__main__":
+    #this is nessecary for pyinstaller to compile the code.
+    multiprocessing.freeze_support()
     main()
