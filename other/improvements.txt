@@ -9,3 +9,4 @@ find a way to better allocate processes
 X add timeout functionality
   note: severely compromises integrity of desTree, since branches should be the same length to have meaningful comparison between them. Not implemented in main project.
 design a benchmark program
+Make it able to handle invalid inputs, such as 2,2 rather than 2, 2
